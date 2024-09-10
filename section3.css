@@ -1,0 +1,50 @@
+#section3{
+    border: 1px solid white;
+    height: 700px;
+    background-color: #d7e0ea;
+    box-sizing: border-box;
+}
+#div3{
+    height: 60px;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-left: 180px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swiperactive{font-size: 25px;}
+.swiperbullet{
+    color: #7e8daa;
+    font-size: 25px;
+}
+#div3 span:hover{
+    color: black;
+    cursor: pointer;
+}
+#section3 p{
+    margin-left: 180px;
+    color: black;
+}
+#section3 button{
+    padding: 15px;
+    width: 150px;
+    margin-left: 180px;
+    background-color: aqua;
+}
+#section3 svg{
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+#section3 img{
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 200px;
+    height: 550px;
+    width: 600px;
+    top: 1550px;
+    left: 750px;
+    
+}

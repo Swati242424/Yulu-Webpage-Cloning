@@ -1,0 +1,48 @@
+#section6{
+    border: 2px solid black;
+    height: 650px;
+    background-color: #071228;
+    color: #546477;
+}
+#sec6a{
+    /* border: 2px solid blue; */
+    height: 500px;
+    width:1050px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#sec6a ol{
+    list-style: none;
+}
+#section6 div+div img{
+    height: 100px;
+    width: 120px;
+}
+#section6 ol li{
+    margin-top: 20px;
+    color: #949cab;
+    
+}
+#ol4 li+li img{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    
+}
+#ol4 div{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#copyright{
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 85%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
